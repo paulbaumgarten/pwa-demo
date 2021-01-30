@@ -32,4 +32,5 @@ For documentation on your `manifest.webmanifest` file, see https://web.dev/add-m
 * [Service Worker Cookbook](https://serviceworke.rs/) - a collection of working, practical examples of using service workers in modern web sites
    * [Notification push example](https://serviceworke.rs/push-simple.html)
 * [Mozilla docs service worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+* [Mozilla docs progress web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 

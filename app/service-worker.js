@@ -39,21 +39,10 @@ self.addEventListener('activate', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
-    // If the file we are requesting is in our cache, serve that, otherwise do a normal network request
     event.respondWith(
-        (async () => {
-            try {
-            caches.match(event.request).then(function (response) {
-                return response || fetch(event.request);
-            })
-            } catch (error) {
-            console.log("Fetch failed; returning offline page instead.", error);
-
-            const cache = await caches.open(CACHE_VERSION);
-            const cachedResponse = await cache.match(OFFLINE_URL);
-            return cachedResponse;
-            }
-        })()
+        caches.match(event.request).then(function (response) {
+            return response || fetch(event.request);
+        })
     );
 });
 
