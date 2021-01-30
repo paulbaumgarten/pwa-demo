@@ -1,0 +1,30 @@
+{
+    "short_name": "pwaDemo",
+    "name": "PWA Demo by pbaumgarten",
+    "description": "PWA Demo by pbaumgarten",
+    "icons": [
+      { "src": "/app/images/icon-192.png", "type": "image/png", "sizes": "192x192" },
+      { "src": "/app/images/icon-512.png", "type": "image/png", "sizes": "512x512" }
+    ],
+    "start_url": "/app/index.html?source=pwa",
+    "background_color": "#00ccff",
+    "display": "standalone",
+    "scope": "/app",
+    "theme_color": "#00ccff",
+    "shortcuts": [
+      {
+        "name": "Main",
+        "short_name": "Main",
+        "description": "Test the main page",
+        "url": "/app/index.html?source=pwa",
+        "icons": [ { "src": "/app/images/icon-96.png", "type": "image/png", "sizes": "96x96" } ]
+      },
+      {
+        "name": "Page 2",
+        "short_name": "Page 2",
+        "description": "Test page 2",
+        "url": "/app/page2.html?source=pwa",
+        "icons": [ { "src": "/app/images/icon-96.png", "type": "image/png", "sizes": "96x96" } ]
+      }
+    ]
+  }
