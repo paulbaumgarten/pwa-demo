@@ -9,7 +9,7 @@
     "start_url": "/app/index.html?source=pwa",
     "background_color": "#00ccff",
     "display": "standalone",
-    "scope": "/app",
+    "scope": "/app/",
     "theme_color": "#00ccff",
     "shortcuts": [
       {

@@ -28,9 +28,10 @@ For documentation on your `manifest.webmanifest` file, see https://web.dev/add-m
 
 ## Useful references
 
-* [Progressive web apps documents @ web.dev](https://web.dev/progressive-web-apps/) - learn what makes a Progressive Web App special, how they can affect your business, and how to build them
-* [Service Worker Cookbook](https://serviceworke.rs/) - a collection of working, practical examples of using service workers in modern web sites
-   * [Notification push example](https://serviceworke.rs/push-simple.html)
+* [Google PWA documents @ web.dev](https://web.dev/progressive-web-apps/) - learn what makes a Progressive Web App special, how they can affect your business, and how to build them
+* [Debugging tools for PWA](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers)
 * [Mozilla docs service worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 * [Mozilla docs progress web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+* [Service Worker Cookbook](https://serviceworke.rs/) - a collection of working, practical examples of using service workers in modern web sites
+   * [Notification push example](https://serviceworke.rs/push-simple.html)
 
